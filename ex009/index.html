@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol> <!--Indica que abaixo haverá uma lista-->
+        <!--Na tag OL pode inserir parâmetro para escolher o tipo de lista que será criada. Type (tipo da lista: numérica, alfabética...). No caso do tipo numérico se for preciso que a lista se inicie com um número diferente de 1, adiciona-se outro parâmetro o START e digita de qual número a lista deve iniciar. Type A= letras maiúsculas. Type a= letras minúsculas. Type I= números romanos maiúsculos. Type i= número romanos em letras minúsculas-->
+        <li>Acordar</li> <!--A tag LI ordenará a lista com a numeração sem a necessidade inserir manualmente. Isso é importante para que não precise renomear constantemente a lista ao inserir elementos novos-->
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li> <!--o fechamento da tag Li com /li no HTML 5 tornou-se opcional-->
+    </ol>
+    <h2>Listas não ordenadas</h2> <!--Listas que a ordem não importa. -->
+    <ul> <!--Assim como as listas ordenadas, nas listas não ordenadas é possível inserir um type para caracterizar o tipo de ícone desejado. TYpe square= quadrado. Type disc= bolinha preenchida. Type circle= círculo sem preenchimento. O type DISC é o padrão -->
+        <li>pão</li>
+        <li>leite</li>
+        <li>tomate</li>
+        <li>arroz</li>
+    </ul>
+    <h2>Linguagens favoritas do Gustavo Guanabara</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type= "a">
+            <li>Clipper</li>
+            <li>Visual Bascic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Pynthon</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Lista de definição</h2> <!--Espécie de dicionário-->
+    <dl>
+        <dt>HTML</dt> <!--Termo-->
+        <dd>Linguagem de marcação de um site</dd> <!--Descrição do termo acima-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+
+    </dl>
+</body>
+</html>

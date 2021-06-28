@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1> <!--Aponta para um site que não é -->
+    <p> Acesso ao <a href="http://github.com/vanessa-maganhoto/desafios-JS" target="_blank" rel="external">repositório do GitHub</a> .
+    </p> <!--Tag A significa âncora. O parâmetro HREF é a referência, ou seja, pra onde o link vai. O parâmetro REL sinaliza que o link levará para uma janela fora do site. O parâmetro TARGET _blank significa que o link em questão será aberto em uma aba nova -->
+    <p>Acesso o canal <a href="http://youtube.com/cursoemvideo/" target="_blank" rel="external">do Curso em Vídeo</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a segunda página do meu site. Se voce quiser, pode acessar também a minha <a href="pag002.html" rel="next">Segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        <li><img src="icone-linkedin.png" alt="Linkedin" title="Imagem Linkedin"> <a href="https://linkedin.com" target="_blank" rel="external" >Acesse o linkedin</a></li>
+    </ul>
+</body>
+</html>
